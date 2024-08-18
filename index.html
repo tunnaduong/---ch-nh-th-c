@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Đề chính thức - FPoly Hackathon 2024</title>
+  </head>
+  <body>
+    <div id="main">
+      <nav class="navbar">
+        <div class="navbar--logo">
+          <img src="./images/logo.png" alt="FPT Polytechnic Logo" />
+        </div>
+        <ul class="navbar--menu">
+          <li><a href="#">Những Điều Cần Biết</a></li>
+          <li><a href="#">Tin Học Bổng</a></li>
+          <li><a href="#">Hoạt Động Sinh Viên</a></li>
+          <li><a href="#">Đăng Ký</a></li>
+          <li><a href="#">Tuyển Sinh</a></li>
+          <li><a href="#" class="orange">Giới Thiệu Chung</a></li>
+        </ul>
+      </nav>
+      <section class="slideshow">
+        <div class="slideshow--images">
+          <div class="slideshow--controls">
+            <div class="arrow-left" onclick="plusSlides(-1)">
+              <img src="./images/arrow-back.svg" alt="Arrow back" />
+            </div>
+            <div class="arrow-right" onclick="plusSlides(1)">
+              <img src="./images/arrow-forward.svg" alt="Arrow forward" />
+            </div>
+          </div>
+          <div class="slideshow--image mySlides fade">
+            <img src="./images/banner-1.jpg" alt="Banner 1" />
+          </div>
+          <div class="slideshow--image mySlides fade">
+            <img src="./images/banner-2.jpg" alt="Banner 2" />
+          </div>
+          <div class="slideshow--image mySlides fade">
+            <img src="./images/banner-3.jpg" alt="Banner 3" />
+          </div>
+        </div>
+      </section>
+      <section class="about-us f">
+        <div class="about-us--intro">
+          <div class="intro--img">
+            <img src="./images/introduction.jpg" alt="Introduction" />
+          </div>
+          <div class="intro--info">
+            <h1 class="lead-1 upper">
+              Giới thiệu Trường Cao đẳng FPT Polytechnic
+            </h1>
+            <p class="paragraph">
+              Trường Cao đẳng FPT Polytechnic được thực hiện đào tạo và cấp bằng
+              theo Quyết định của Tổng cục dạy nghề bắt đầu từ ngày 01/07/2010.
+              Trường hướng tới mục tiêu cung cấp kỹ năng nghề nghiệp chất lượng
+              cao cho người học, đảm bảo được tính cạnh tranh trong môi trường
+              phát triển ngày càng cao.
+            </p>
+            <p class="paragraph">
+              Với nhận định nền kinh tế Việt Nam đang phát triển mạnh mẽ trong
+              đó có sự đóng góp to lớn từ trên 500.000 doanh nghiệp vừa và nhỏ
+              quy mô từ 10 đến 200 nhân viên, FPT Polytechnic nhắm tới mục tiêu
+              cung cấp nguồn nhân lực được đào tạo tốt cho nhu cầu phát triển
+              của không chỉ các doanh nghiệp lớn mà còn cho các doanh nghiệp
+              này.
+            </p>
+            <p class="paragraph">
+              Hướng tới người học chung trên toàn Việt Nam, chương trình cao
+              đẳng của trường được thiết kế dựa trên những kỹ năng thiết yếu
+              nhất để làm việc và tương thích với các hệ thống đào tạo tiên tiến
+              trên thế giới.
+            </p>
+          </div>
+        </div>
+        <div class="about-us--counts">
+          <div class="counter">
+            <div class="counter--number orange">97.7%</div>
+            <div class="counter--title">Sinh viên có việc làm ngay</div>
+          </div>
+          <div class="counter">
+            <div class="counter--number orange">2000+</div>
+            <div class="counter--title">Doanh nghiệp đối tác</div>
+          </div>
+          <div class="counter">
+            <div class="counter--number orange">40.000+</div>
+            <div class="counter--title">Sinh viên & Cựu SV</div>
+          </div>
+          <div class="counter">
+            <div class="counter--number orange">11 Cơ sở</div>
+            <div class="counter--title">Đào tạo toàn quốc</div>
+          </div>
+        </div>
+      </section>
+      <section class="industries f">
+        <h1 class="lead-1 upper t-center">Ngành đào tạo</h1>
+        <p class="paragraph t-center industries--desc">
+          Với triết lý đào tạo
+          <span class="orange">“Thực học – Thực nghiệp”</span>, Trường Cao đẳng
+          FPT Polytechnic hướng tới đào tạo nguồn nhân lực chất lượng cao với
+          phương pháp giảng dạy qua dự án thật.
+        </p>
+        <div class="industries--boxes">
+          <div class="industries--box-row">
+            <div class="industries--box">
+              <div class="industries--box-img">
+                <img src="./images/nganh-cntt.jpg" alt="Ngành CNTT" />
+              </div>
+              <div class="industries--box-desc">Công nghệ thông tin</div>
+              <div class="industries--list">
+                <div class="lead-4 white">Lập trình Web</div>
+                <div class="lead-4 white">Phát triển phần mềm</div>
+                <div class="lead-4 white">Lập trình Mobile</div>
+                <div class="lead-4 white">Lập trình Game</div>
+                <div class="lead-4 white">Xử lý dữ liệu</div>
+                <div class="lead-4 white">Ứng dụng phần mềm</div>
+              </div>
+            </div>
+            <div class="industries--box">
+              <div class="industries--box-img">
+                <img src="./images/nganh-qtkd.jpg" alt="Ngành QTKD" />
+              </div>
+              <div class="industries--box-desc">Quản trị kinh doanh</div>
+            </div>
+            <div class="industries--box">
+              <div class="industries--box-img">
+                <img
+                  src="./images/nganh-tu-dong-hoa.jpg"
+                  alt="Ngành CNKT&TĐH"
+                />
+              </div>
+              <div class="industries--box-desc">
+                Công nghệ kỹ thuật điều khiển và Tự động hoá
+              </div>
+            </div>
+          </div>
+          <div class="industries--box-row">
+            <div class="industries--box">
+              <div class="industries--box-img">
+                <img src="./images/nganh-tkdh.jpg" alt="Ngành CNTT" />
+              </div>
+              <div class="industries--box-desc">Thiết kế đồ họa</div>
+            </div>
+            <div class="industries--box">
+              <div class="industries--box-img">
+                <img src="./images/nganh-tham-my.jpg" alt="Ngành QTKD" />
+              </div>
+              <div class="industries--box-desc">Thẩm mỹ làm đẹp</div>
+            </div>
+            <div class="industries--box">
+              <div class="industries--box-img">
+                <img src="./images/nganh-khac.jpg" alt="Ngành CNKT&TĐH" />
+              </div>
+              <div class="industries--box-desc">Ngành khác</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="banner">
+        <img src="./images/banner-hoc-bong.jpg" alt="Banner học bổng" />
+      </section>
+      <section class="register">
+        <div class="register--wrapper f">
+          <div class="register--left-col">
+            <h1 class="lead-1 white">ĐĂNG KÝ SỚM - SĂN HỌC BỔNG THÁNG 8</h1>
+            <p class="white register--desc">
+              Bạn vui lòng điền đầy đủ thông tin cá nhân vào bảng đăng ký xét
+              tuyển trực tuyến bên cạnh để tư vấn viên của trường liên hệ với
+              bạn giải đáp các thắc mắc hoàn toàn miễn phí. Chúng tôi sẽ chủ
+              động liên hệ lại với bạn trong vòng 24h kể từ khi nhận được thông
+              tin đăng ký. Lưu ý: Những mục đánh dấu (*) là thông tin bắt buộc
+              phải điền.
+            </p>
+            <div class="image">
+              <div class="register--img">
+                <img src="./images/dang-ky.png" alt="Clip đăng ký" />
+              </div>
+              <div class="register--play">
+                <img src="./images/play-button.svg" alt="Play" />
+              </div>
+            </div>
+          </div>
+          <div class="register--right-col">
+            <h2 class="lead-2 upper orange t-center">
+              để lại thông tin để được tư vấn
+            </h2>
+            <form action="" method="post">
+              <div class="form form--name">
+                <input
+                  type="text"
+                  placeholder="Họ và tên (*)"
+                  name="name"
+                  id="name"
+                />
+              </div>
+              <div class="form form--email">
+                <input
+                  type="email"
+                  placeholder="Email (*)"
+                  name="email"
+                  id="email"
+                />
+              </div>
+              <div class="form form--phone">
+                <input
+                  type="number"
+                  placeholder="Số điện thoại (*)"
+                  name="phone"
+                  id="phone"
+                />
+              </div>
+              <div class="form form--major">
+                <select name="major" id="major">
+                  <option value="" selected disabled hidden>
+                    Chọn ngành học
+                  </option>
+                  <option value="cntt">Công nghệ thông tin</option>
+                  <option value="tkdh">Thiết kế đồ họa</option>
+                </select>
+              </div>
+              <div class="form form--study-location">
+                <select name="location" id="location">
+                  <option value="" selected disabled hidden>
+                    Chọn địa điểm học
+                  </option>
+                  <option value="hnoi">Hà Nội</option>
+                  <option value="hnam">Hà Nam</option>
+                </select>
+              </div>
+              <div class="form form--name">
+                <input
+                  type="text"
+                  placeholder="Link Facebook của bạn"
+                  name="facebook"
+                  id="facebook"
+                />
+              </div>
+              <button class="form--send-btn" type="submit">Đăng ký</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="activities f">
+        <h1 class="lead-1 t-center upper activities--title">
+          Hoạt động sinh viên
+        </h1>
+        <div class="blog">
+          <div class="blog--main">
+            <div class="blog--main-img">
+              <img
+                src="./images/hoat-dong-sinh-vien-1.jpg"
+                alt="Hoạt động sinh viên 1"
+              />
+            </div>
+            <div class="blog--main-text">
+              <h2 class="lead-2 t-600">
+                Sinh viên Công nghệ thông tin thử sức với chương trình đánh giá
+                năng lực đầu vào của Solana Superteam Vietnam
+              </h2>
+              <p class="paragraph">
+                Trong khuôn khổ Job Fair 2024, Phòng Quan hệ doanh nghiệp FPT
+                Polytechnic Hà Nội phối hợp cùng Solana Superteam Vietnam tổ
+                chức chương trình đánh giá năng lực đầu vào Solana tại Hội
+                trường P. Sự kiện thu hút 90 sinh viên Công nghệ thông tin và
+                Ứng dụng phần mềm tham gia để chuẩn bị bước vào kỳ thực tập Fall
+                2024.
+              </p>
+              <p class="paragraph">
+                Chương trình đánh giá năng lực đầu vào Solana được tổ chức tại
+                Hội trường P, Trường Cao đẳng FPT Polytechnic cơ sở Hà Nội.
+              </p>
+              <p class="paragraph">
+                Buổi đánh giá năng lực được chia thành 3 ca, nhằm tuyển chọn ra
+                những ứng viên phù hợp tham gia vào chương trình đào tạo thực
+                tập sinh blockchain kéo dài trong 10 tuần của Solana Superteam
+                Vietnam. Cụ thể, mỗi thí sinh sẽ được cấp 1 tài khoản để đăng
+                nhập vào hệ thống Solana. Tại đây, các bạn sẽ thực hiện bài test
+                trắc nghiệm liên quan đến kiến thức lập trình, blockchain.
+              </p>
+            </div>
+          </div>
+          <div class="blog--sub">
+            <div class="blog--post">
+              <div class="blog--post-img">
+                <img
+                  src="./images/hoat-dong-sinh-vien-2.jpg"
+                  alt="Hoạt động sinh viên 2"
+                />
+              </div>
+              <div class="blog--post-text">
+                <h3 class="lead-3">
+                  Hà Mai Anh: Cô bạn trẻ nỗ lực, vừa làm thêm ở khách sạn nổi
+                  tiếng vừa ứng tuyển thực tập tại Mỹ
+                </h3>
+                <p class="paragraph">
+                  Từ khi bắt đầu theo học tại FPT Polytechnic Hà Nội, Hà Mai Anh
+                  biết rõ trách nhiệm của mình và luôn cố gắng hết mình để nâng
+                  cao kiến thức và kỹ năng. Không chỉ giỏi trong các môn học lý
+                  thuyết, cô bạn còn tích cực tham gia các hoạt động thực tế tại
+                  các khách sạn.
+                </p>
+              </div>
+            </div>
+            <div class="blog--post">
+              <div class="blog--post-img">
+                <img
+                  src="./images/hoat-dong-sinh-vien-3.jpg"
+                  alt="Hoạt động sinh viên 2"
+                />
+              </div>
+              <div class="blog--post-text">
+                <h3 class="lead-3">
+                  Sinh viên kỳ cuối bội thu kiến thức viết CV và phỏng vấn qua
+                  chương trình “Định hướng thực tập Fall 2024
+                </h3>
+                <p class="paragraph">
+                  Chiều ngày 22/7, tại hội trường tòa P của FPT Polytechnic Hà
+                  Nội đã diễn ra chương trình “Định hướng thực tập Fall 2024”
+                  dành cho sinh viên chuẩn bị bước vào kỳ thực tập tháng 9. Buổi
+                  định hướng thu hút hơn 200 bạn trẻ tham dự, tạo nên không khí
+                  học tập vô cùng sôi nổi.
+                </p>
+              </div>
+            </div>
+            <div class="blog--post">
+              <div class="blog--post-img">
+                <img
+                  src="./images/hoat-dong-sinh-vien-4.jpg"
+                  alt="Hoạt động sinh viên 2"
+                />
+              </div>
+              <div class="blog--post-text">
+                <h3 class="lead-3">
+                  Các doanh nghiệp nói gì về sinh viên FPT Polytechnic Đà Nẵng
+                  sau chương trình Bee Matching 2024?
+                </h3>
+                <p class="paragraph">
+                  Chuỗi hoạt động của Tuần lễ Bee Matching 2024 là sự kiện kết
+                  nối doanh nghiệp của FPT Polytechnic Đà Nẵng. Với sự góp mặt
+                  của 43 doanh nghiệp cùng sinh viên các khối ngành Kinh tế,
+                  Điện – Cơ khí, Công nghệ thông tin, Thiết kế đồ họa và Du lịch
+                  – Nhà hàng – Khách sạn.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="banner">
+        <img src="./images/sub-banner.jpg" alt="Sub Banner" />
+      </section>
+      <section class="scholarship f">
+        <h1 class="lead-1 upper t-center">Tin học bổng</h1>
+        <div class="scholarship--news">
+          <div class="news--post">
+            <div class="post--img">
+              <img src="./images/tin-hoc-bong-1.jpg" alt="Tin học bổng 1" />
+            </div>
+            <div class="post--text">
+              <h3 class="lead-3">
+                “Văn võ song toàn” – Nam sinh Bình Phước tự tin “rinh” về học
+                bổng 30% toàn khóa học của FPT Polytechnic
+              </h3>
+              <p class="paragraph">
+                Vừa qua, với sự nhanh nhạy trong lối suy nghĩ, Tôn Thất Bửu Long
+                (2K6) – nam sinh quê Bình Phước đã xuất sắc vượt qua vòng phỏng
+                vấn đầy cạnh tranh để giật lấy học bổng 30%
+              </p>
+            </div>
+          </div>
+          <div class="news--post">
+            <div class="post--img">
+              <img src="./images/tin-hoc-bong-2.jpg" alt="Tin học bổng 1" />
+            </div>
+            <div class="post--text">
+              <h3 class="lead-3">
+                Bí quyết ẵm trọn học bổng “Thắp sáng tương lai” 30% của cô nàng
+                Huỳnh Thị Minh Sang
+              </h3>
+              <p class="paragraph">
+                Huỳnh Thị Minh Sang là lớp trưởng và trưởng bí thư đoàn 3 năm
+                liền tại trường THPT GDTX Thanh Niên Xung Phong cùng với nhiều
+                giải thưởng nổi bật.
+              </p>
+            </div>
+          </div>
+          <div class="news--post">
+            <div class="post--img">
+              <img src="./images/tin-hoc-bong-3.jpg" alt="Tin học bổng 1" />
+            </div>
+            <div class="post--text">
+              <h3 class="lead-3">
+                “Bẻ lái” sang thiết kế đồ họa, chàng rapper trẻ tài năng Huỳnh
+                Tấn Phát thành công chinh phục học bổng 30%
+              </h3>
+              <p class="paragraph">
+                Huỳnh Tấn Phát, chàng trai sinh năm 2006, hiện đang là học sinh
+                trường THPT Trần Nguyên Hãn, vừa vinh dự nhận được học bổng Thắp
+                sáng tương lai 30% từ FPT Polytechnic
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="must-know f">
+        <h1 class="lead-1 t-center upper">Những điều cần biết</h1>
+        <div class="must-know--buttons">
+          <button class="active">Quy chế tuyển sinh</button>
+          <button>Hướng dẫn nhập học</button>
+          <button>Học bổng, ưu đãi</button>
+          <button>Phiếu đăng ký học</button>
+          <button>Câu hỏi thường gặp</button>
+        </div>
+        <div class="regulations">
+          <center>
+            <h3 class="lead-3 t-24 mb-12">QUY CHẾ TUYỂN SINH</h3>
+            <h4 class="lead-4 mb-32">
+              TRƯỜNG CAO ĐẲNG FPT POLYTECHNIC NĂM 2024
+            </h4>
+          </center>
+          <h5 class="lead-5 upper">1. Hình thức tuyển sinh</h5>
+          <p class="paragraph">Xét tuyển hồ sơ THPT.</p>
+          <h5 class="lead-5 upper">2. Đối tượng tuyển sinh</h5>
+          <p class="paragraph">
+            Thí sinh thuộc một trong các đối tượng sau sẽ đủ điều kiện trở thành
+            sinh viên của Cao đẳng FPT Polytechnic:
+          </p>
+          <ul>
+            <li class="paragraph">Tốt nghiệp THPT hoặc tương đương</li>
+            <li class="paragraph">Sinh viên các trường Cao đẳng, Đại học</li>
+            <li class="paragraph">
+              Sinh viên đã hoàn thành chương trình Trung cấp và đã có bằng tốt
+              nghiệp THPT hoặc tương đương.
+            </li>
+          </ul>
+          <h5 class="lead-5 upper">3. Ngành đào tạo</h5>
+          <p class="paragraph">
+            <span class="orange">Ngành Công nghệ thông tin,</span> bao gồm:
+          </p>
+          <ul>
+            <li class="paragraph">Phát triển phần mềm</li>
+            <li class="paragraph">Lập trình Web</li>
+            <li class="paragraph">Lập trình Mobile</li>
+            <li class="paragraph">Lập trình Game</li>
+            <li class="paragraph">Ứng dụng phần mềm</li>
+            <li class="paragraph">Xử lý dữ liệu</li>
+          </ul>
+          <p class="paragraph">
+            <span class="orange">Ngành Quản trị kinh doanh,</span> bao gồm:
+          </p>
+          <ul>
+            <li class="paragraph">Digital Marketing</li>
+            <li class="paragraph">Marketing & Sale</li>
+            <li class="paragraph">Truyển thông & Tổ chức sự kiện</li>
+            <li class="paragraph">Quản trị Khách sạn - Nhà hàng</li>
+            <li class="paragraph">Quản trị Dịch vụ du lịch & Lữ hành</li>
+            <li class="paragraph">Logistic</li>
+          </ul>
+          <p class="paragraph">
+            <span class="orange"
+              >Ngành Công nghệ kỹ thuật điều khiển & Tự động hóa,</span
+            >
+            bao gồm:
+          </p>
+          <ul>
+            <li class="paragraph">
+              Công nghệ kỹ thuật điều khiển & Tự động hoá
+            </li>
+            <li class="paragraph">Công nghệ kỹ thuật điện, điện tử</li>
+          </ul>
+          <p class="paragraph">
+            <span class="orange">Ngành Chăm sóc sức khỏe và Làm đẹp,</span>
+            bao gồm:
+          </p>
+          <ul>
+            <li class="paragraph">Chăm sóc da và Spa</li>
+            <li class="paragraph">Trang điểm nghệ thuật</li>
+            <li class="paragraph">Phun thêu thẩm mỹ</li>
+            <li class="paragraph">Công nghệ móng</li>
+          </ul>
+          <p class="paragraph">
+            <span class="orange">Ngành khác,</span>
+            bao gồm:
+          </p>
+          <ul>
+            <li class="paragraph">Thiết kế đồ họa</li>
+            <li class="paragraph">Hướng dẫn du lịch</li>
+            <li class="paragraph">Công nghệ kỹ thuật cơ khí</li>
+            <li class="paragraph">Dược</li>
+          </ul>
+          <h5 class="lead-5 upper">4. Thời gian đào tạo</h5>
+          <p class="paragraph">2 năm, gồm 6 học kỳ liên tục</p>
+          <h5 class="lead-5 upper">5. Hồ sơ xét tuyển và nhập học</h5>
+          <ul>
+            <li class="paragraph">
+              01 Phiếu đăng ký học theo mẫu quy định của trường. Phiếu đăng ký
+              học thí sinh có thể điền trực tiếp <a
+                class="gray"
+                href="https://caodang.fpt.edu.vn/dang-ky-nop-ho-so-online?utm_source=Website&utm_medium=QCTS&utm_campaign=TS2022"
+                >tại đây</a
+              >, hoặc đến nhận tại văn phòng tuyển sinh trên toàn quốc.
+            </li>
+            <li class="paragraph">
+              01 Bản sao công chứng chứng minh nhân dân/căn cước công dân
+            </li>
+            <li class="paragraph">
+              01 Bản sao công chứng bằng tốt nghiệp THPT hoặc Giấy chứng nhận
+              tốt nghiệp tạm thời.
+            </li>
+          </ul>
+          <h5 class="lead-5 upper">6. Học phí</h5>
+          <center>
+            <h5 class="lead-5">
+              Học phí dành cho sinh viên nhập học năm 2024<br />(từ đợt nhập học
+              tháng 1/2024)
+            </h5>
+          </center>
+          <ul>
+            <li class="paragraph">Học phí kỳ định hướng đóng 1 lần duy nhất</li>
+            <li class="paragraph">
+              Học phí chuyên ngành đã bao gồm tiếng Anh, có 6 kỳ chuyên ngành
+            </li>
+            <li class="paragraph">
+              Tân sinh viên nộp học phí học kỳ 1 theo thông tin chuyển khoản <a
+                class="orange f-600 no-style"
+                href="#"
+                >tại đây</a
+              >. Lưu ý không nộp tiền mặt.
+            </li>
+            <li class="paragraph orange f-600">
+              100% sinh viên phải trang bị laptop để học tập.
+            </li>
+          </ul>
+          <table>
+            <tr>
+              <td></td>
+              <th class="lead-5">Hà Nội, TP HCM</th>
+              <th class="lead-5">Các cơ sở khác</th>
+            </tr>
+            <tr>
+              <th class="lead-5" style="text-align: left">
+                Học phí kỳ định hướng
+              </th>
+              <td class="paragraph">2,600,000 VNĐ</td>
+              <td class="paragraph">2,080,000 VNĐ</td>
+            </tr>
+            <tr>
+              <th class="lead-5 t-left" colspan="3">Học phí chuyên ngành</th>
+            </tr>
+            <tr>
+              <td class="paragraph">Học phí kỳ 1, 2, 3</td>
+              <td class="paragraph">12,400,000 VNĐ/kỳ</td>
+              <td class="paragraph">9,920,000 VNĐ/kỳ</td>
+            </tr>
+            <tr>
+              <td class="paragraph">Học phí kỳ 4, 5, 6</td>
+              <td class="paragraph">13,300,000 VNĐ/kỳ</td>
+              <td class="paragraph">10,640,000 VNĐ/kỳ</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <footer>
+        <div class="footer f">
+          <div class="footer--site-info">
+            <a href="#">
+              <div class="logo">
+                <div class="logo--img">
+                  <img src="./images/logo-white.png" />
+                </div>
+              </div>
+            </a>
+            <div class="connect--social">
+              <div class="btn-social">
+                <div class="social--icon">
+                  <img src="./images/fb-icon.png" />
+                </div>
+              </div>
+              <div class="btn-social">
+                <div class="social--icon">
+                  <img src="./images/insta-icon.png" />
+                </div>
+              </div>
+              <div class="btn-social">
+                <div class="social--icon">
+                  <img src="./images/tiktok-icon.png" />
+                </div>
+              </div>
+              <div class="btn-social">
+                <div class="social--icon">
+                  <img src="./images/twitter-icon.png" />
+                </div>
+              </div>
+              <div class="btn-social">
+                <div class="social--icon">
+                  <img src="./images/youtube-icon.png" />
+                </div>
+              </div>
+            </div>
+            <div class="footer--info">
+              <div class="info--support">
+                <div class="info--img">
+                  <img src="./images/support.svg" />
+                </div>
+                <div class="info--text noto">Hotline: 098-888-8888</div>
+              </div>
+              <div class="info--support">
+                <div class="info--img">
+                  <img src="./images/web.svg" />
+                </div>
+                <div class="info--text noto">
+                  Website: https://caodang.fpt.edu.vn/
+                </div>
+              </div>
+              <div class="info--support">
+                <div class="info--img">
+                  <img src="./images/mail.svg" />
+                </div>
+                <div class="info--text noto">Email: caodang@fpt.edu.vn</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer--quick-link">
+            <div class="footer--title upper orange lead-2">
+              Hệ thống văn phòng tuyển sinh
+            </div>
+            <ul class="footer--locations">
+              <li class="footer--location white">
+                <img src="./images/location.svg" />
+                <div class="location noto">
+                  Cổng số 1, Tòa nhà FPT Polytechnic, 13 phố Trịnh Văn Bô,
+                  phường Phương Canh, quận Nam Từ Liêm, TP Hà Nội
+                </div>
+              </li>
+              <li class="footer--location white">
+                <img src="./images/location.svg" />
+                <div class="location noto">
+                  Tòa nhà FPT Polytechnic, đường đê Mỏ Bạch, tổ 10, phường Quyết
+                  Thắng, TP Thái Nguyên, tỉnh Thái Nguyên
+                </div>
+              </li>
+              <li class="footer--location white">
+                <img src="./images/location.svg" />
+                <div class="location noto">
+                  271 Lê Thánh Tông, phường Máy Chai, quận Ngô Quyền, TP Hải
+                  Phòng
+                </div>
+              </li>
+              <li class="footer--location white">
+                <img src="./images/location.svg" />
+                <div class="location noto">
+                  Tổ hợp Giáo dục FPT, Unischool, Khu Đại học Nam Cao, Phường
+                  Hoàng Đông, Thị xã Duy Tiên, Hà Nam
+                </div>
+              </li>
+              <li class="footer--location white">
+                <img src="./images/location.svg" />
+                <div class="location noto">
+                  Đường Trịnh Kiểm, phường Đông Vệ, TP Thanh Hóa
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="footer--quick-link" style="margin-top: 36px">
+            <div class="footer--title upper orange lead-2"></div>
+            <ul class="footer--locations">
+              <li class="footer--location white">
+                <img src="./images/location.svg" />
+                <div class="location noto">
+                  Tòa nhà QTSC9 (toà T), đường Tô Ký, phường Tân Chánh Hiệp,
+                  quận 12, TP HCM.
+                </div>
+              </li>
+              <li class="footer--location white">
+                <img src="./images/location.svg" />
+                <div class="location noto">
+                  219 Nguyễn Sinh Sắc, phường Hoà Minh, quận Liên Chiểu, TP Đà
+                  Nẵng
+                </div>
+              </li>
+              <li class="footer--location white">
+                <img src="./images/location.svg" />
+                <div class="location noto">
+                  107A Thanh Niên, phường Quang Trung, TP Quy Nhơn, tỉnh Bình
+                  Định
+                </div>
+              </li>
+              <li class="footer--location white">
+                <img src="./images/location.svg" />
+                <div class="location noto">
+                  Số 300, 6 Đường Hà Huy Tập, Tổ dân phố 8, phường Tân An, TP
+                  Buôn Ma Thuột, Đắk Lắk
+                </div>
+              </li>
+              <li class="footer--location white">
+                <img src="./images/location.svg" />
+                <div class="location noto">
+                  193 Đỗ Văn Thi, phường Hiệp Hòa, TP Biên Hòa, tỉnh Đồng Nai
+                </div>
+              </li>
+              <li class="footer--location white">
+                <img src="./images/location.svg" />
+                <div class="location noto">
+                  Toà nhà FPT Polytechnic, đường số 22, phường Thường Thạnh,
+                  quận Cái Răng, TP Cần Thơ
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer--bottom noto white">© 2024 FPT Polytechnic</p>
+      </footer>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
